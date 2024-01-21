@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Makeup Recommendations</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Makeup Recommendations</h1>
+<div class="recommendations">
+{% for product, recommendation in recommendations.items() %}
+<div class="recommendation">
+<h3>{{ product }}</h3>
+<p>Recommendation: {{ recommendation }}</p>
+<a href="/product-details/{{ product }}">Product Details</a>
+</div>
+{% endfor %}
+</div>
+</body>
+</html>
+
+
