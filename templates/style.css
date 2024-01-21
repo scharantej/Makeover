@@ -1,0 +1,52 @@
+css
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+h1 {
+font-size: 2em;
+margin-bottom: 10px;
+}
+
+h2 {
+font-size: 1.5em;
+margin-bottom: 5px;
+}
+
+h3 {
+font-size: 1.2em;
+margin-bottom: 5px;
+}
+
+p {
+font-size: 1em;
+margin-bottom: 5px;
+}
+
+a {
+text-decoration: none;
+color: #000;
+}
+
+.recommendations {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.recommendation {
+width: 250px;
+margin: 10px;
+padding: 10px;
+border: 1px solid #ccc;
+}
+
+.product-details {
+width: 500px;
+margin: 0 auto;
+padding: 10px;
+border: 1px solid #ccc;
+}
+
